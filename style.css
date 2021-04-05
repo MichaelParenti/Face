@@ -1,0 +1,207 @@
+body { 
+    background: black;
+}
+#head{
+    background: rgb(255, 193, 101);
+    width: 200px;
+    height: 300px;
+    transform: translate(-50%,0%);
+    top: 150px;
+    left: 50%;
+    position: absolute;
+    border-radius:50%;
+}
+#head2{
+    background: rgb(255, 193, 101);
+    width: 200px;
+    height: 250px;
+    transform: translate(-50%,0%);
+    top: 150px;
+    left: 50%;
+    position: absolute;
+    border-radius:100px;
+}
+#hair{
+    background: rgb(0, 0, 148);
+    /* clip: rect(50px,50px,50px,0); */
+    border-radius:80px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    width: 210px;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    transform: translate(-50%,0px);
+    left: 50%;
+    top: 145px;
+    z-index: 2;
+}
+#hair::after{
+    content: "";
+    background: rgb(0, 0, 78);
+    /* clip: rect(50px,50px,50px,0); */
+    border-radius:50%;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    width: 200px;
+    height: 10px;
+    overflow: hidden;
+    position: absolute;
+    transform: translate(-50%,0px);
+    left: 50%;
+    top: 90px;
+    z-index: 4;
+}
+#hair::before{
+    content: "";
+    background: rgb(0, 0, 31);
+    /* clip: rect(50px,50px,50px,0); */
+    border-radius:30%;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    width: 220px;
+    height: 20px;
+    overflow: hidden;
+    position: absolute;
+    transform: translate(-50%,0px);
+    left: 50%;
+    top: 85px;
+    z-index: 3;
+}
+#side1{
+    background: rgb(77, 28, 0);
+    border-radius:80px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    width: 20px;
+    height: 60px;
+    overflow: hidden;
+    position: absolute;
+    transform: translate(-105px,0px);
+    left: 50%;
+    top: 240px;
+}
+#side2{
+    background: rgb(77, 28, 0);
+    border-radius:80px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    width: 20px;
+    height: 60px;
+    overflow: hidden;
+    position: absolute;
+    transform: translate(85px,0px);
+    left: 50%;
+    top: 240px;
+}
+img{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    z-index:6;
+    left: 50%;
+    top: 200px;
+    transform: translate(-50%,-50%);
+}
+#button{
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    z-index:6;
+    left: 50%;
+    top: 142px;
+    transform: translate(-50%,-50%);
+    background: rgb(0, 0, 78);
+    border-radius:5px;
+}
+#l-eye-p1{
+    width: 20px;
+    height: 20px;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform: translate(-50px,-50%) rotate(-45deg);
+    position: absolute;
+    z-index: 7;
+    background: white;
+    left: 50%;
+    top: 275px;
+}
+#r-eye-p1{
+    width: 20px;
+    height: 20px;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform: translate(30px,-50%) rotate(-45deg);
+    position: absolute;
+    z-index: 8;
+    background: white;
+    left: 50%;
+    top: 275px;
+}
+#r-eye-p2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transform: translate(33px,-50%) rotate(-45deg);
+    position: absolute;
+    z-index: 8;
+    background: rgb(0, 119, 255);
+    left: 50%;
+    top: 275px;
+}
+#l-eye-p2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transform: translate(-47px,-50%) rotate(-45deg);
+    position: absolute;
+    z-index: 8;
+    background: rgb(0, 119, 255);
+    left: 50%;
+    top: 275px;
+}
+#l-eye-p3{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transform: translate(-44.5px,-50%) rotate(-45deg);
+    position: absolute;
+    z-index: 8;
+    background: black;
+    left: 50%;
+    top: 275px;
+}
+#r-eye-p3{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transform: translate(35.5px,-50%) rotate(-45deg);
+    position: absolute;
+    z-index: 8;
+    background: black;
+    left: 50%;
+    top: 275px;
+}
+#nose{
+    width: 30px;
+    height: 80px;
+    border-left: solid 5px rgb(240, 170, 66);
+    border-bottom: solid 5px rgb(240, 170, 66);
+    border-radius: 25px;
+    transform: translate(-50%,-50%) rotate(0deg);
+    position: absolute;
+    z-index: 8;
+    left: 50%;
+    top: 320px;
+}
+#mouth{
+    width: 70px;
+    height: 40px;
+    border-bottom: solid 5px rgb(128, 12, 12);
+    border-radius: 50px;
+    transform: translate(-50%,-50%) rotate(0deg);
+    position: absolute;
+    z-index: 8;
+    left: 50%;
+    top: 380px;
+}
